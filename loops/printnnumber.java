@@ -11,7 +11,7 @@ public class printnnumber {
 //        {
 //            System.out.println(i*n);
 //        }
-//       //print table
+//       //print number
 //        for(int i=1;i<=n;i++)
 //        {
 //            System.out.println(i);
@@ -22,9 +22,10 @@ public class printnnumber {
 //            System.out.println(i);
 //        }
 //       // printing n numbers power
-        for(int i=0;i<=0;i++)
-        {
-            System.out.println(n*n);
-        }
+//        for(int i=0;i<=0;i++)
+//        {
+//            System.out.println(n*n);
+//        }
+
     }
 }
