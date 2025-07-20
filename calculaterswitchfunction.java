@@ -32,7 +32,7 @@ class CalculatorApplication {
     This function will prompt the user to enter his choice on exiting the program.
     If user chooses 'y' then program will exit.
     If user chooses 'n' then program will continue.
-    If wrong input is given, then program will retry at max 5 times and after that
+    If wrong input is given, then the program will retry at max 5 times and after that
     it will exit forcefully
     */
     public boolean exitProgram(){
