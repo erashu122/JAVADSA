@@ -41,6 +41,44 @@ public class AlphabetSure {
 //        a b c d e f
 //        a b c d e f
 //        a b c d e f
+        Scanner dbc=new Scanner(System.in);
+        System.out.print("Enter n: ");
+        int l=dbc.nextInt();
+        for(int i=1;i<=l;i++){ //control row
+            for (int j = 1; j <=l ; j++) { //control colum
+                System.out.print((char)(i+64) +" ");
+
+            }
+            System.out.println();
+        }
+
+//        Enter n: 6
+//        A A A A A A
+//        B B B B B B
+//        C C C C C C
+//        D D D D D D
+//        E E E E E E
+//        F F F F F F
+
+
+        Scanner dkc=new Scanner(System.in);
+        System.out.print("Enter n: ");
+        int m=dkc.nextInt();
+        for(int i=1;i<=m;i++){ //control row
+            for (int j = 1; j <=m ; j++) { //control colum
+                System.out.print((char)(i+96) +" ");
+
+            }
+            System.out.println();
+        }
+
+//        Enter n: 6
+//        a a a a a a
+//        b b b b b b
+//        c c c c c c
+//        d d d d d d
+//        e e e e e e
+//        f f f f f f
 
     }
 }
