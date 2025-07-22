@@ -1,4 +1,4 @@
-package peternPrinting;
+package peternPrinting.Squre;
 
 import java.util.Scanner;
 
