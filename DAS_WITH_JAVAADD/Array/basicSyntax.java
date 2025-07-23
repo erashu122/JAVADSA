@@ -1,4 +1,4 @@
-package DAS_WITH_JAVAADD.Arrays;
+package DAS_WITH_JAVAADD.Array;
 
 public class basicSyntax {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DAS_WITH_JAVAADD.Arrays;
+package DAS_WITH_JAVAADD.Array;
 
 public class initalisetonArrays {
     public static void main(String[] args) {

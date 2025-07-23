@@ -1,4 +1,4 @@
-package DAS_WITH_JAVAADD.Arrays;
+package DAS_WITH_JAVAADD.Array;
 
 import java.util.Scanner;
 
