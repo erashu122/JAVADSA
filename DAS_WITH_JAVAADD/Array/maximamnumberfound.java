@@ -8,8 +8,6 @@ public class maximamnumberfound {
             if (arr[i]>mx) {
                 mx=arr[i];
             }
-
-
         }
         System.out.println(mx);
     }
