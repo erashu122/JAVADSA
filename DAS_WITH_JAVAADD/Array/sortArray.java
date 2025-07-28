@@ -14,6 +14,7 @@ public class sortArray {
             if (i<noofZero) arr[i]=0;
             else arr[i]=1;
 
+
         }
 
     }
