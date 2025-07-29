@@ -9,7 +9,7 @@ public class shortCol {
     public static void main(String[] args) {
         int[] arr = {0, 1, 0, 2, 0, 1, 1, 1, 0, 0, 2, 2};
         int n = arr.length;
-
+        //method 1
         int noOfZero = 0;
         int noOfOne = 0;
 
