@@ -10,11 +10,11 @@ public class mergeTwoShortedArrayInSingleArray {
         int m = brr.length;
 
         int[] crr = new int[n + m];
-        int i = 0, j = 0, k = 0;
+        int i = n-1, j = m-1, k =n+m-1 ;
 
         // Merge arr and brr into crr
         while (i < n && j < m) {
-            if (arr[i] < brr[j]) {
+            if (arr[i] > brr[j]) {
                 crr[k++] = arr[i++];
             } else {
                 crr[k++] = brr[j++];
