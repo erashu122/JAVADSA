@@ -14,11 +14,11 @@ public class rowAndColumeWisePrinting {
 
         System.out.println();
 
-        int[][] transpose=new int[m][n];
+        int[][] transpose = new int[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                transpose[i][j]=a[j][i];
-                System.out.print(transpose[i][j]+" ");
+                transpose[i][j] = a[j][i];
+                System.out.print(transpose[i][j] + " ");
             }
             System.out.println();
         }
