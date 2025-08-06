@@ -68,6 +68,22 @@ public class Webform {
             }
         }
         System.out.println("WEBFORM matrix form ->3:");
+        for (int j = 0; j < n; j++) {
+            if (j % 2 == 0) {
+                // Top to bottom
+                for (int i = 0; i < m; i++) {
+                    System.out.print(arr[i][j] + " ");
+                }
+                System.out.println();
+            } else {
+                // Bottom to top
+                for (int i = m - 1; i >= 0; i--) {
+                    System.out.print(arr[i][j] + " ");
+                }
+                System.out.println();
+            }
+        }
+        System.out.println();
 
     }
 }
@@ -93,4 +109,9 @@ WEBFORM matrix :
 1 2 3
 6 5 4
 7 8 9
+
+WEBFORM matrix 3:
+1 4 7
+8 5 2
+3 6 9
 */
