@@ -3,21 +3,21 @@ package DAS_WITH_JAVAADD.Array.TwoDimensionalArray;
 import java.util.Scanner;
 
 public class Webform {
-//    public static int[][] taking() {
-//        Scanner sc=new Scanner(System.in);
-//        System.out.print("Enter the Order of Matrix (m*n) :");
-//        int m= sc.nextInt();
-//        int n= sc.nextInt();
-//        int[][] ar = new int[m][n];
-//        for (int i = 0; i < m; i++) {
-//            for (int j = 0; j < n; j++) {
-//                System.out.print("Enter the element "+i+" "+j+" :");
-//                ar[i][j]=sc.nextInt();
-//            }
-//            System.out.println();
-//        }
-//        return ar;
-//    }
+    public static int[][] taking() {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Order of Matrix (m*n) :");
+        int m= sc.nextInt();
+        int n= sc.nextInt();
+        int[][] ar = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print("Enter the element "+i+" "+j+" :");
+                ar[i][j]=sc.nextInt();
+            }
+            System.out.println();
+        }
+        return ar;
+    }
     public static void print(int[][] arr) {
         int m=arr.length,n=arr[0].length;
         for (int i = 0; i < m; i++) {
@@ -29,7 +29,7 @@ public class Webform {
         System.out.println();
     }
     public static void main(String[] args) {
-        int[][] arr={{1,2,3},{4,5,6},{7,8,9}} ;
+        int[][] arr=taking() ;
         int m=arr.length, n=arr[0].length;
         System.out.println("Original matrix :");
         print(arr);
