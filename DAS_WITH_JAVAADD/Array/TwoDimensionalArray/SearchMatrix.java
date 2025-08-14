@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class SearchMatrix {
     public static void main(String[] args) {
         int[][] a = {
-                {11, 2, 3, 4},
-                {12, 43, 54, 67},
-                {89, 54, 5, 7},
-                {9, 85, 25, 36}
+                {1, 4, 7, 11},
+                {2, 5, 8, 12},
+                {3, 6, 9, 16},
+                {10,13,14,17}
         };
 
         int m = a.length;
