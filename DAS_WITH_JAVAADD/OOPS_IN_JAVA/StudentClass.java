@@ -13,6 +13,7 @@ public class StudentClass {
         x.rollno=34;
         x.percent=78.3;
         System.out.println(x.percent + 10);
+        System.out.println(x.rollno);
 
     }
 }
